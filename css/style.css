@@ -56,6 +56,7 @@ body {
 
 .menu__list li {
     padding-left: 38px;
+    
 }
 
 .menu__list a {
@@ -63,6 +64,10 @@ body {
     color: #2f3f54;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
+}
+
+.menu__list a:hover {
+    color: #2c7de8;
 }
 
 .top {
@@ -81,9 +86,9 @@ body {
     color: white;
 }
 
-.top-info__subtitle {
+/* .top-info__subtitle {
 
-}
+} */
 
 .top-info__title {
     font-family: 'Roboto', sans-serif;
@@ -139,6 +144,10 @@ body {
     border-radius: 25px;
     padding: 13px 44px;
     margin-bottom: 15px;
+}
+
+.top-info__btn:hover{
+    box-shadow: 0 0 20px white;
 }
 
 .top-images__box {
@@ -299,6 +308,11 @@ body {
     right: 0;
     text-align: center;
     padding: 20px 10px;
+    transition: 0.5s;
+}
+
+.price_item_btn:hover{
+    transform: scale(1.2);
 }
 
 .footer {
@@ -342,6 +356,10 @@ body {
     font-size: 13px;
     margin-bottom: 8px;
     color: #718db2;
+}
+
+.footer_list a:hover{
+    color: white;
 }
 
 .footer-form {
@@ -392,6 +410,10 @@ body {
     cursor: pointer;
 }
 
+.footer-form button:hover{
+    box-shadow: 0 0 0.5em whitesmoke;
+}
+
 .reviews {
     padding: 120px 0;
     background-color: #fafafa;
@@ -401,9 +423,9 @@ body {
     margin-top: 160px;
 }
 
-.reviews-slider_item {
+/* .reviews-slider_item {
 
-}
+} */
 
 .reviews-box {
     display: flex;
